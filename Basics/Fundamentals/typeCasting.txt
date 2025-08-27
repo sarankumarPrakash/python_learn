@@ -1,0 +1,5 @@
+Typecasting =>  Is  like converting one form of data to another format 
+                 int() float() str() bool()
+
+
+
