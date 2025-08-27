@@ -1,0 +1,42 @@
+Python Basics
+
+1. Comments in Python
+
+=> A comment is a line ignored by Python (used to explain code).
+
+=> In Python, comments start with #.
+
+# This is a comment
+print("Hello")  # Inline comment
+
+
+2. Saving Python Files
+
+Python files are saved with the extension: .py
+Example: hello.py
+
+
+3. Running a Python Program
+
+Open terminal/command prompt.
+
+
+Run the file with:
+
+
+python hello.py
+
+4. Printing Output
+
+
+
+Use print() to display output on the screen.
+
+print("Hello World")
+
+👉 print() is one of the most commonly used functions in Python.
+
+⚡ Tip: You can also print variables:
+
+name = "Saran"
+print("Hello", name)

@@ -1,0 +1,44 @@
+Variables in Python : 
+
+=> A variable is like a container used to store data.
+
+=> Python is dynamically typed → you don’t need to declare the data type before assigning a value.
+
+Example:
+
+num = 10
+print(num)
+
+
+num → variable (name/container)
+
+= → assignment operator
+
+10 → value assigned to variable
+
+
+
+Rules for Naming Variables:
+
+=> Must start with a letter (a–z, A–Z) or an underscore _.
+
+=> Cannot start with a number.
+
+=> Can only contain letters, digits, and underscores.
+
+=> Case-sensitive → age and Age are two different variables.
+
+=> Avoid using Python keywords (like class, def, if, etc.) as variable names.
+
+
+Examples of Valid Variables:
+
+name = "Alice"
+_age = 25
+user1 = "John"
+
+Examples of Invalid Variables:
+
+❌ 1age = 20 (cannot start with number)
+❌ user-name = "Sam" (hyphen not allowed)
+❌ class = "Python" (keyword)

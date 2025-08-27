@@ -1,0 +1,49 @@
+In python we can classify Data Types in Two Types 
+
+
+Primitive & non-primitive
+
+Primitive : Store single Value 
+
+1. int       => Whole Numbers                               ( 0,-5,10 )
+2. float     => Decimal Numbers                             ( 3.14 , -2.5 )
+3. complex   => Number with Real and Imaginary Values       ( 2-3j , 3+2j )
+4. bool      => Boolean Values                              ( True , False )
+5. str       => Text / charcter                             ( "Hello" , 'HI')
+6. NoneType  => Represent absent of Values                  ( None )
+
+
+Non - Primitive : 
+
+
+1. List 
+       1. Ordered collections 
+       2. Mutable -> we can add, edit the data
+       3. Allow Duplicates and store differnt data type in single 
+       4. Real - life analogy : ( put  apples, bread milk and even small basket inside it like adding all item in shopping cart . )
+       5. Eg : mixed_list = [1,"apple", True, 3.14, [1,2,3]]
+2. Tuples
+       1. Ordered collection like list but immutable 
+       2. Allow Duplicates
+       3. Faster than list immutable
+       4. eg : (1,"apple", True, 3.14, [1,2,3])
+3. Set 
+       1. unordered collection of unique Items ( no duplicates )
+       2. items are immutable , but teh set itself cannot have duplicates
+       3. Does not support index beacuse of index . 
+       4. Eg : numbers = {1, 2, 3, 3, 2}
+4. Frozenset 
+       1. Same as set , but immutable 
+       2. Once created you can't add / delete elements 
+       3. Eg : frozenset([1,2,3,4])
+5. Dictionary
+       1. colection of key-value pairs
+       2. key must be unique and unmutable 
+       3. values can be any type 
+       4. Eg : student = {"name": "Alice", "age": 20, "grade": "A"}
+6. Range 
+       1. Represent sequence of numbers 
+       2. often used in loops 
+       3. sytax range(start,stop, step)
+7. Binary Types 
+       1. used to access binary data ( image , files , network Data )
